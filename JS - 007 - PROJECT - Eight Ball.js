@@ -14,7 +14,7 @@ let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = randomNumber
 
 //printing which number was selected
-console.log(`\nThe eight ball answered: ${eightBall}\n`);  
+console.log(`\nThe eight ball answered: number ${eightBall}:\n`);  
 
 //creating a control flow for each number 0 - 7 using switch case st.
 switch (eightBall){
